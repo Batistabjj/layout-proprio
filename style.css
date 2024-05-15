@@ -1,9 +1,46 @@
-body {
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: black;
+
 }
 
 body {
 
     font-family: 'Inter'  sans-serif;
 }
+
+.container {
+   position: relative;
+   width: 300px;
+   height: 200px;
+   border: 1px solid #ccc;
+   padding: 20px;
+   box-sizing: border-box;
+}
+
+.close-icon, .close-icon1 {
+   
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+
+
+
+
+h1 {
+    font-size: 36px;
+    color: blueviolet;
+    text-align: center;
+    margin: 20px 0;
+}
+    
+    
+
+
+
 
