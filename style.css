@@ -80,7 +80,7 @@ nav ul li a:hover {
 .image3 img {
     cursor: pointer;
     position: absolute;
-    top: 10px;
+    top: 30px;
     left: -200px;
     width: 150px;
     height: auto;
