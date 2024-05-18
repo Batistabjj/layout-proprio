@@ -1,60 +1,86 @@
-html, body {
+html,body {
     height: 100%;
     margin: 0;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     background: black;
-
+    color: white;
+    font-family: 'Inter' sans-serif;
 }
 
-body {
-
-    font-family: 'Inter'  sans-serif;
+header {
+    width: 100%;
+    position: relative;
+    padding: 10px 20px;
+    box-sizing: border-box;
 }
 
-.container {
-   position: relative;
-   width: 300px;
-   height: 200px;
-   border: 1px solid #ccc;
-   padding: 20px;
-   box-sizing: border-box;
+.header-content {
+    display: flex;
+    flex-direction: column;
 }
 
-.small-home-img {
-    cursor: pointer;
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 30px ;
-    height: 30px;
-   margin-top: 25px;
-   margin-right: 25px;
-   
+header h1 {
+    margin: 0;
+    padding: 0;
 
-}
-
-.close-icon, .close-icon1 {
-   
-    cursor: pointer;
-    width: 60px;
-    height: 60px;
-    margin-top: -90px;
 }
 
 
 
-
-h1 {
-    cursor: pointer;
-    font-size: 36px;
-    color: blueviolet;
-    text-align: center;
-    margin: 20px 0;
+nav {
+    margin-top: 25px;
 }
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 20px;
+}
+
+
+
+nav ul li a {
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    font-size: 1.2em;
     
-    
+}
+
+nav ul li a:hover {
+    background-color: purple;
+}
+
+.logos {
+    cursor: pointer;
+   position: absolute;
+   top: 50px;
+   right: -120px;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+}
+
+.logos img {
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+.logos img:last-child {
+    margin-bottom: 0;
+}
+
 
 
 
