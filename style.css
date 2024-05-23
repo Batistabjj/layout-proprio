@@ -69,18 +69,19 @@ nav ul li a:hover {
 .logos {
     cursor: pointer;
     position: absolute;
-    top: 10px;
-   
+    top: 20px;
     right: 20px;
-   
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-end;
+
+
 }
 
 .logos img {
-    width: 40px;
-    margin-bottom: 10px;
+    width: 60px;
+    margin-left: 30px;
 }
 
 
@@ -88,7 +89,7 @@ nav ul li a:hover {
     position: absolute;
     top: 10px;
     left: 20px;
-    
+
 
 
 
@@ -105,8 +106,8 @@ nav ul li a:hover {
 }
 
 .carousel-container {
-    width: 100%;
-    margin-top: 95px;
+    width: 85%;
+    margin-top: 90px;
     margin-bottom: 20px;
     background-color: #333;
     padding: 0%;
@@ -122,33 +123,24 @@ nav ul li a:hover {
     scrollbar-width: none;
     margin-bottom: 20px;
     position: relative;
+    top: -5%;
 }
-    
-    
-
-    
-
-
-
-
-
-
 
 .carousel {
 
     scroll-snap-type: x mandatory;
     display: flex;
+}
 
-
-} 
 
 
 .carousel img {
     flex: 0 0 auto;
-    width: 100%;
+    width: 115%;
     height: auto;
     scroll-snap-align: start;
     scroll-snap-stop: always;
+
 }
 
 
@@ -184,7 +176,7 @@ nav ul li a:hover {
 }
 
 #prev-button,
-#next-button{
+#next-button {
     background-color: transparent;
     border: none;
     cursor: pointer;
@@ -199,12 +191,17 @@ nav ul li a:hover {
     height: auto;
 }
 
+.info-box {
+    padding: 15px;
+    margin: 1px 0;
+    background-color: transparent;
+    border: transparent;
+    text-align: center;
+    font-weight: 800;
+  
+}
 
-
-
-
-
-
-
-
-
+.neon-text {
+    color: #fff;
+    text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, 0 0 15px #00ff00, 0 0 20px #00ff00, 0 0 30px, 0 0 #00ff00, 0 0 50px #00ff00;
+}
