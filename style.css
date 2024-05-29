@@ -123,8 +123,8 @@ nav ul li a:hover {
 }
 
 .carousel-container {
-    
-    
+
+
     width: 78%;
     margin: 90px auto 20px auto;
     background-color: black;
@@ -297,6 +297,83 @@ nav ul li a:hover {
 
     font-weight: 900;
 }
+
+.section-login p {
+    display: flex;
+    justify-content: center;
+    color: #00ff00;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 40px;
+
+
+
+}
+
+.section-login {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.form-section {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-right: 150px;
+}
+
+.form-container input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border: 1px solid white;
+    width: calc(200% - 22px);
+    margin-right: -2px;
+    margin-top: 40px;
+}
+
+
+.form-container input[type="email"] {
+
+
+    padding: 10px;
+    font-size: 16px;
+    background-color: black;
+    color: aqua;
+   
+    border-radius: 20px;
+    border: 1px solid white;
+    width: calc(200% - 22px);
+    margin-top: 40px;
+
+}
+
+
+.form-container button {
+   padding: 10px;
+   font-size: 16px;
+   background-color: black;
+   border: 3px solid green;
+   border-radius: 20px;
+   cursor: pointer;
+   color: green;
+   margin-top: 20px;
+   width: calc(100% - 30px);
+   margin-top: 20px;
+}
+
+
+
+
 
 
 
