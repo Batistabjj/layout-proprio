@@ -16,7 +16,8 @@ body {
 
 
 body {
-    overflow-y: auto;
+   
+    overflow-x: hidden;
 }
 
 
@@ -317,106 +318,146 @@ nav ul li a:hover {
 
 .form-section {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    height: 100vh;
+    padding: 20px;
+}
+
+.text-container {
+     
+    max-width: 45%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.text-container p{
+    margin: 0;
+    line-height: 1.5;
+    word-wrap: break-word;
 }
 
 .form-container {
+    flex: 1;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
     gap: 10px;
-    margin-right: 150px;
+    max-width: 45%; 
+    box-sizing: border-box;
+    padding: 10px;
 }
 
-.form-container input[type="text"] {
+.form-container input[type="text"],
+.form-container input[type="email"] {
     padding: 10px;
     font-size: 16px;
     background-color: black;
     color: white;
+    border-radius: 20px;
+    border: 1px solid white;
+    width: 100%; 
+    box-sizing: border-box;
+}
+
+.form-container input[type="email"] {
+    margin-top: 10px; 
+    color: aqua;
+}
+
+.form-container button {
+    padding: 10px; 
+    background-color: black;
+    border: 1px solid green;
+    border-radius: 50%;
+    cursor: pointer;
+    color: green;
+    width: 50px; 
+    height: 50px; 
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+/*
+
+.form-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.text-container,
+.form-container {
+    flex: 1 1 45%;
+    max-width: 500px;
+    
+}
+
+.text-container p {
+    margin: 0;
+    font-weight: 900;
+    line-height: 1
+    
+
+    
+}
+
+.form-container{
+    padding: 20px;
+  
+    border-radius: 10px;
+}
+
+
+.form-container input[type="text"],
+.form-container input[type="email"] {
+    width: 100%;
+    padding: 10px;
     margin-bottom: 10px;
     border-radius: 20px;
     border: 1px solid white;
-    width: calc(200% - 22px);
-    margin-right: -2px;
-    margin-top: 40px;
-}
-
-
-.form-container input[type="email"] {
-
-
-    padding: 10px;
-    font-size: 16px;
     background-color: black;
-    color: aqua;
-   
-    border-radius: 20px;
-    border: 1px solid white;
-    width: calc(200% - 22px);
-    margin-top: 40px;
+    color: white;
+    font-size: 16px;
+
 
 }
+
+
+.form-container input[type="email"]{
+   padding-bottom: 10px;
+}
+
+
+
+
+
 
 
 .form-container button {
-   padding: 10px;
-   font-size: 16px;
-   background-color: black;
-   border: 3px solid green;
-   border-radius: 20px;
-   cursor: pointer;
-   color: green;
-   margin-top: 20px;
-   width: calc(100% - 30px);
-   margin-top: 20px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*.image-container img {
-    width: auto;
-    max-width: 300%;
-    height: auto;
-    max-height: 250px;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
     align-items: center;
-   
-   
-}
-.image-container h1{
-    color: rgb(36, 2, 36);
+    margin-left: 190px;
+    
+    
+    
 
-}
+
+
+
+
+}/*
