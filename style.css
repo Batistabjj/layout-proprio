@@ -343,13 +343,23 @@ nav ul li a:hover {
     flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
     gap: 10px;
     max-width: 45%; 
     box-sizing: border-box;
     padding: 10px;
+    align-items: center;
+    position: relative;
 }
+
+
+
+
+
+
+
+   
+
+
 
 .form-container input[type="text"],
 .form-container input[type="email"] {
@@ -357,25 +367,36 @@ nav ul li a:hover {
     font-size: 16px;
     background-color: black;
     color: white;
-    border-radius: 20px;
+    border-radius: 50px;
     border: 1px solid white;
     width: 100%; 
     box-sizing: border-box;
 }
 
-.form-container input[type="email"] {
-    margin-top: 10px; 
-    color: aqua;
+.form-container input[type="text"] {
+    align-self: flex-start;
+    margin-top: -150px;
 }
 
+.form-container input[type="email"] {
+
+    margin-top: 70px;
+}
+
+
+
+
+
+
 .form-container button {
-    padding: 10px; 
+    padding: 15px; 
+    font-size: 18px;
     background-color: black;
-    border: 1px solid green;
-    border-radius: 50%;
+    border: 3px solid green;
+    border-radius: 60px;
     cursor: pointer;
     color: green;
-    width: 50px; 
+    width: 150px; 
     height: 50px; 
     margin-top: 20px;
 }
