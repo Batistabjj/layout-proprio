@@ -34,7 +34,7 @@ header {
 .header-content {
     display: flex;
     flex-direction: column;
-    
+
 
     height: 100%;
     justify-content: center;
@@ -124,23 +124,21 @@ nav ul li a:hover {
 }
 
 .image3 img {
-
-
-
-
-
     width: 150px;
     height: auto;
 
 }
 
+
+
+
+
+
 .logos img:last-child {
     margin-bottom: 0;
 }
 
-.carousel-container {                   /*000*/
-
-
+.carousel-container {
     width: 78%;
     margin: 90px auto 20px auto;
     background-color: black;
@@ -156,8 +154,11 @@ nav ul li a:hover {
     scrollbar-width: none;
     position: relative;
 
-   
+
 }
+    
+
+
 
 
 
@@ -168,6 +169,7 @@ nav ul li a:hover {
     flex: 0 0 auto;
     width: 119%;
     height: 90%;
+    object-fit: contain;
     scroll-snap-align: start;
     scroll-snap-stop: always;
     border-radius: 0%;
@@ -175,10 +177,16 @@ nav ul li a:hover {
 
 }
 
+
+
+
+
+
+
 .carousel {
 
-    scroll-snap-type: x mandatory;
     display: flex;
+    scroll-snap-type: x mandatory;
 }
 
 
@@ -216,6 +224,11 @@ nav ul li a:hover {
     gap: 10px;
 }
 
+
+
+
+
+
 #prev-button,
 #next-button {
     background-color: transparent;
@@ -234,7 +247,7 @@ nav ul li a:hover {
 
 .info-box {
     padding: 15px;
-    margin: 0 auto;    /*1px 0;*/
+    margin: 0 auto;
     margin-top: -200px;
     background-color: transparent;
     border: transparent;
@@ -265,14 +278,21 @@ nav ul li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid green;
+    border: 3px solid green;
     color: green;
     padding: 10px;
     margin: 40px auto;
-    height: 100px;
-    width: 300px;
     border-radius: 500px;
 }
+
+.quote-box {
+    width: 233px;
+    height: 56px;
+    font-size: 16px;
+}
+
+
+
 
 .quote-box p {
     font-weight: 100px;
