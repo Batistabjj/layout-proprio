@@ -16,13 +16,14 @@ body {
 
 
 body {
-   
+
     overflow-x: hidden;
 }
 
 
 header {
     width: 100%;
+    height: 70%;
     padding: 10px 20px;
     box-sizing: border-box;
     position: relative;
@@ -33,6 +34,10 @@ header {
 .header-content {
     display: flex;
     flex-direction: column;
+    
+
+    height: 100%;
+    justify-content: center;
 }
 
 header h1 {
@@ -98,7 +103,12 @@ nav ul li a:hover {
 }
 
 .logos img {
-    width: 40px;
+    width: 30px;
+
+    height: 30px;
+
+
+
     margin-left: 30px;
 }
 
@@ -114,6 +124,11 @@ nav ul li a:hover {
 }
 
 .image3 img {
+
+
+
+
+
     width: 150px;
     height: auto;
 
@@ -123,7 +138,7 @@ nav ul li a:hover {
     margin-bottom: 0;
 }
 
-.carousel-container {
+.carousel-container {                   /*000*/
 
 
     width: 78%;
@@ -140,6 +155,8 @@ nav ul li a:hover {
     -ms-overflow-style: none;
     scrollbar-width: none;
     position: relative;
+
+   
 }
 
 
@@ -217,7 +234,8 @@ nav ul li a:hover {
 
 .info-box {
     padding: 15px;
-    margin: 1px 0;
+    margin: 0 auto;    /*1px 0;*/
+    margin-top: -200px;
     background-color: transparent;
     border: transparent;
     text-align: center;
@@ -231,6 +249,8 @@ nav ul li a:hover {
 }
 
 .text-box {
+
+    margin-top: -10px;
     padding: 40px;
     background-color: black;
     margin: 20px auto;
@@ -327,13 +347,13 @@ nav ul li a:hover {
 }
 
 .text-container {
-     
+
     max-width: 45%;
     box-sizing: border-box;
     padding: 10px;
 }
 
-.text-container p{
+.text-container p {
     margin: 0;
     line-height: 1.5;
     word-wrap: break-word;
@@ -344,21 +364,12 @@ nav ul li a:hover {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    max-width: 45%; 
+    max-width: 45%;
     box-sizing: border-box;
     padding: 10px;
     align-items: center;
     position: relative;
 }
-
-
-
-
-
-
-
-   
-
 
 
 .form-container input[type="text"],
@@ -369,13 +380,13 @@ nav ul li a:hover {
     color: white;
     border-radius: 50px;
     border: 1px solid white;
-    width: 100%; 
+    width: 100%;
     box-sizing: border-box;
 }
 
 .form-container input[type="text"] {
     align-self: flex-start;
-    margin-top: -150px;
+    margin-top: -130px;
 }
 
 .form-container input[type="email"] {
@@ -389,17 +400,135 @@ nav ul li a:hover {
 
 
 .form-container button {
-    padding: 15px; 
+    padding: 15px;
     font-size: 18px;
     background-color: black;
     border: 3px solid green;
     border-radius: 60px;
     cursor: pointer;
     color: green;
-    width: 150px; 
-    height: 50px; 
+    width: 150px;
+    height: 50px;
     margin-top: 20px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
