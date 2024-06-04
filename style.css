@@ -12,18 +12,17 @@ body {
     color: white;
     font-family: 'inter', sans-serif;
     display: block;
+    
 }
 
 
 body {
-
-    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 
 header {
     width: 100%;
-    height: 70%;
     padding: 10px 20px;
     box-sizing: border-box;
     position: relative;
@@ -34,10 +33,6 @@ header {
 .header-content {
     display: flex;
     flex-direction: column;
-
-
-    height: 100%;
-    justify-content: center;
 }
 
 header h1 {
@@ -103,12 +98,7 @@ nav ul li a:hover {
 }
 
 .logos img {
-    width: 30px;
-
-    height: 30px;
-
-
-
+    width: 40px;
     margin-left: 30px;
 }
 
@@ -129,16 +119,13 @@ nav ul li a:hover {
 
 }
 
-
-
-
-
-
 .logos img:last-child {
     margin-bottom: 0;
 }
 
 .carousel-container {
+
+
     width: 78%;
     margin: 90px auto 20px auto;
     background-color: black;
@@ -153,12 +140,7 @@ nav ul li a:hover {
     -ms-overflow-style: none;
     scrollbar-width: none;
     position: relative;
-
-
 }
-    
-
-
 
 
 
@@ -169,7 +151,6 @@ nav ul li a:hover {
     flex: 0 0 auto;
     width: 119%;
     height: 90%;
-    object-fit: contain;
     scroll-snap-align: start;
     scroll-snap-stop: always;
     border-radius: 0%;
@@ -177,16 +158,10 @@ nav ul li a:hover {
 
 }
 
-
-
-
-
-
-
 .carousel {
 
-    display: flex;
     scroll-snap-type: x mandatory;
+    display: flex;
 }
 
 
@@ -224,11 +199,6 @@ nav ul li a:hover {
     gap: 10px;
 }
 
-
-
-
-
-
 #prev-button,
 #next-button {
     background-color: transparent;
@@ -247,8 +217,7 @@ nav ul li a:hover {
 
 .info-box {
     padding: 15px;
-    margin: 0 auto;
-    margin-top: -200px;
+    margin: 1px 0;
     background-color: transparent;
     border: transparent;
     text-align: center;
@@ -262,8 +231,6 @@ nav ul li a:hover {
 }
 
 .text-box {
-
-    margin-top: -10px;
     padding: 40px;
     background-color: black;
     margin: 20px auto;
@@ -278,21 +245,14 @@ nav ul li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 3px solid green;
+    border: 1px solid green;
     color: green;
     padding: 10px;
     margin: 40px auto;
+    height: 100px;
+    width: 300px;
     border-radius: 500px;
 }
-
-.quote-box {
-    width: 233px;
-    height: 56px;
-    font-size: 16px;
-}
-
-
-
 
 .quote-box p {
     font-weight: 100px;
@@ -358,276 +318,74 @@ nav ul li a:hover {
 
 .form-section {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 20px;
-    height: 100vh;
+    justify-content: flex-end;
+}
+
+.message-box{
+    background-color: black;
     padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    height: fit-content;
+    position: absolute;
+    left: 150px;
+    font-weight: 900;
+    
+    
 }
-
-.text-container {
-
-    max-width: 45%;
-    box-sizing: border-box;
-    padding: 10px;
-}
-
-.text-container p {
-    margin: 0;
-    line-height: 1.5;
-    word-wrap: break-word;
-}
-
-.form-container {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    max-width: 45%;
-    box-sizing: border-box;
-    padding: 10px;
-    align-items: center;
-    position: relative;
-}
-
-
-.form-container input[type="text"],
-.form-container input[type="email"] {
-    padding: 10px;
-    font-size: 16px;
-    background-color: black;
-    color: white;
-    border-radius: 50px;
-    border: 1px solid white;
-    width: 100%;
-    box-sizing: border-box;
-}
-
-.form-container input[type="text"] {
-    align-self: flex-start;
-    margin-top: -130px;
-}
-
-.form-container input[type="email"] {
-
-    margin-top: 70px;
-}
-
-
-
-
-
-
-.form-container button {
-    padding: 15px;
-    font-size: 18px;
-    background-color: black;
-    border: 3px solid green;
-    border-radius: 60px;
-    cursor: pointer;
-    color: green;
-    width: 150px;
-    height: 50px;
-    margin-top: 20px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
 
 .form-section {
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    gap: 20px;
-    padding: 20px;
+    align-items: flex-start; /* Alinha itens ao início */
+    gap: 500px; /* Espaço entre o texto e o formulário */
 }
 
-.text-container,
-.form-container {
-    flex: 1 1 45%;
-    max-width: 500px;
-    
+.text-container {
+    flex: 1; /* Permite que o contêiner de texto ocupe o espaço necessário */
+    margin-top: 40px; /* Adiciona espaçamento superior */
+    margin-left: 20px;
+    color: white; /* Define a cor do texto */
+    max-width: 200px; /* Largura máxima para o texto */
+    word-break: break-word; /* Quebra a palavra se for muito longa */
 }
 
 .text-container p {
-    margin: 0;
-    font-weight: 900;
-    line-height: 1
-    
-
-    
+    margin: 0; /* Remove margens padrão do parágrafo */
 }
 
-.form-container{
-    padding: 20px;
-  
-    border-radius: 10px;
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Alinha itens à esquerda */
+    gap: 100px; /* Espaçamento consistente entre os elementos */
+    margin-top: 40px; /* Adiciona espaçamento superior */
 }
-
 
 .form-container input[type="text"],
 .form-container input[type="email"] {
-    width: 100%;
     padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 20px;
-    border: 1px solid white;
+    font-size: 16px;
     background-color: black;
     color: white;
-    font-size: 16px;
-
-
+    border-radius: 20px;
+    border: 1px solid white;
+    width: calc(200% - 22px); /* Largura ajustada conforme especificado */
+    box-sizing: border-box; /* Inclui padding e borda na largura total */
 }
 
-
-.form-container input[type="email"]{
-   padding-bottom: 10px;
+.form-container input[type="email"] {
+    color: aqua; /* Cor específica para o email */
 }
-
-
-
-
-
-
 
 .form-container button {
-    width: 100px;
-    height: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 190px;
-    
-    
-    
-
-
-
-
-
-}/*
+    padding: 10px;
+    font-size: 16px;
+    background-color: black;
+    border: 3px solid green;
+    border-radius: 20px;
+    cursor: pointer;
+    color: green;
+    width: calc(100% - 30px); /* Largura ajustada conforme especificado */
+    box-sizing: border-box; /* Inclui padding e borda na largura total */
+    margin-top: 20px; /* Espaçamento superior */
+}
