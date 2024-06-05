@@ -17,7 +17,7 @@ body {
 
 
 body {
-    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 
@@ -98,7 +98,8 @@ nav ul li a:hover {
 }
 
 .logos img {
-    width: 40px;
+    width: 30px;
+    height: 30PX;
     margin-left: 30px;
 }
 
@@ -124,10 +125,10 @@ nav ul li a:hover {
 }
 
 .carousel-container {
-
-
-    width: 78%;
-    margin: 90px auto 20px auto;
+    width: 1180px;
+    height: 600px;
+    /*width: 78%;*/
+    margin: 160px auto 20px auto;
     background-color: black;
     box-sizing: border-box;
     overflow-x: auto;
@@ -149,8 +150,12 @@ nav ul li a:hover {
 .carousel img {
 
     flex: 0 0 auto;
-    width: 119%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+
     scroll-snap-align: start;
     scroll-snap-stop: always;
     border-radius: 0%;
@@ -196,24 +201,63 @@ nav ul li a:hover {
     left: 45%;
     transform: translateX(-50);
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
 
 #prev-button,
 #next-button {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+position: absolute;
+
+border: 2px solid white;
+border-radius: 50%;
+
+background-color: transparent;
+border: none;
+cursor: pointer;
+display: flex;
+align-items: center;
+justify-content: center;
+top: -255px;
 }
+
+
+
 
 #prev-button img,
 #next-button img {
+    background-color: white;
     width: 30px;
     height: auto;
+    border: 2px solid black;
+    border-radius: 50%;
+    filter: invert(100%);
 }
+
+#prev-button{
+    
+
+
+    position: absolute;
+    right: 370px;
+    top: -255px;
+    
+}
+
+#next-button{
+    position: absolute;
+     left: 475px;
+     
+ }
+
+  
+
+
+
+
+
+
+
 
 .info-box {
     padding: 15px;
@@ -222,6 +266,8 @@ nav ul li a:hover {
     border: transparent;
     text-align: center;
     font-weight: 800;
+    margin-top: 110px;
+    position: relative;
 
 }
 
@@ -245,14 +291,21 @@ nav ul li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid green;
+    border: 3px solid green;
     color: green;
     padding: 10px;
     margin: 40px auto;
-    height: 100px;
-    width: 300px;
     border-radius: 500px;
 }
+
+.quote-box {
+    width: 233px;
+    height: 56px;
+    font-size: 16px;
+}
+
+
+
 
 .quote-box p {
     font-weight: 100px;
@@ -312,7 +365,9 @@ nav ul li a:hover {
 }
 
 .section-login {
-    text-align: right;
+
+   
+   text-align: right;
     margin-bottom: 20px;
 }
 
@@ -329,7 +384,7 @@ nav ul li a:hover {
     height: fit-content;
     position: absolute;
     left: 150px;
-    font-weight: 900;
+    font-weight: 1000;
 
 
 }
@@ -357,6 +412,7 @@ nav ul li a:hover {
     margin: 0;
     line-height: 1.5;
     word-wrap: break-word;
+    font-weight: 1000;
 }
 
 .form-container {
@@ -369,6 +425,7 @@ nav ul li a:hover {
     padding: 10px;
     align-items: center;
     position: relative;
+    margin-bottom: 40px;
 }
 
 
@@ -413,12 +470,40 @@ nav ul li a:hover {
 }
 
 
+.section4-box {
+    background-color: rgb(51, 51, 51);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    margin:  0 auto;  /* 40px auto 20px;*/
+    gap: 100px;
+    height: 100vh;
+    box-sizing: border-box;
+    border: 5px solid rgb(168, 6, 6);
+   
+   
+    
+}
 
+.section4-box img {
+    max-width: 35%;
+    height: auto;
+    border: 1px solid purple;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px black;
+    margin-top: 0;
+   
+}
 
+.section4-box img[src="controle-img.jpg"] {
+    margin-top: 0;  
+}
 
-
-
-
+.section4-box img[src="dev-img.jpg"] {
+    margin-top: 0;
+}
 
 
 
