@@ -477,8 +477,9 @@ top: -255px;
     align-items: center;
     padding: 20px;
     width: 100%;
-    margin:  0 auto;  /* 40px auto 20px;*/
-    gap: 100px;
+    margin:  0 auto;  
+    height: 70vh;
+    /*gap: 100px;*/
     height: 100vh;
     box-sizing: border-box;
     border: 5px solid rgb(168, 6, 6);
@@ -488,23 +489,22 @@ top: -255px;
 }
 
 .section4-box img {
-    max-width: 35%;
+    max-width: 45%;
     height: auto;
     border: 1px solid purple;
     border-radius: 10px;
     box-shadow: 0 4px 8px black;
-    margin-top: 0;
+    margin: 0 20px;
    
 }
 
 .section4-box img[src="controle-img.jpg"] {
-    margin-top: 0;  
+    margin-top: 400px;  
 }
 
 .section4-box img[src="dev-img.jpg"] {
-    margin-top: 0;
+    margin-top: -400px;
 }
-
 
 
 
