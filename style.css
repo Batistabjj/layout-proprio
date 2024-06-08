@@ -459,11 +459,11 @@ top: -255px;
     padding: 20px;
     width: 100%;
     margin:  0 auto;  
-    height: 70vh;
+    height: 100%;
     
     height: 100vh;
     box-sizing: border-box;
-    border: 5px solid rgb(168, 6, 6);
+    border: 1px solid rgb(168, 6, 6);
    
    
     
@@ -530,18 +530,22 @@ top: -255px;
 }
 
 .section5-box{
-    border: 1px solid aqua;
+    border: 1px solid red;
     background-color: black;
-    height: 518px;
-    padding: 20px;
+    height: 100%;
+    width: 100%;
     display: flex;
     align-items: flex-start;
     justify-content: space-around;
-    gap: 10px;
     flex-wrap: wrap;
    flex-direction: column;
-   margin: 10px;
-
+   margin: 0 auto;
+   
+   
+   
+   
+    
+  
 }
 
 
@@ -550,6 +554,10 @@ top: -255px;
     display: flex;
     border: 1px solid blue;
     margin-left: 70px;
+    font-weight: 700;
+    color: #97f902;
+   
+    
 }
 
 
@@ -561,20 +569,45 @@ top: -255px;
     display: flex;
     flex-direction: column;
     align-items: center;   
-    margin-top: 100px; 
+    margin-top: -50px; 
+    font-size: 24px;
+    font-weight: 400;
+    margin-left: 50px;
+    padding: 10px;
+    box-sizing: border-box;
+    transform: translateY(-200px);
+   
+    
+}
+
+.son1-box p{
+    word-wrap: break-word;
+}
+   
+   
    
   
    
-    margin-left: 60px;
-    
-    
+
+.son1-box h2 {
+    font-size: 16px;
+    color: #97f902;
+    padding-right: 200px;
+    border: 1px solid orangered;
 }
+
+
+
+
+
 
 
 .son2-box{
     border: 1px solid aqua;
     flex-direction: column;
     display: flex;
+    line-height: 51.42px;
+
 }
 
 
