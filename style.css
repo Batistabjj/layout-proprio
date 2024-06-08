@@ -529,6 +529,64 @@ top: -255px;
 
 }
 
+.section5-box{
+    border: 1px solid aqua;
+    background-color: black;
+    height: 518px;
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 10px;
+    flex-wrap: wrap;
+   flex-direction: column;
+   margin: 10px;
+
+}
+
+
+
+.text-section5 {
+    display: flex;
+    border: 1px solid blue;
+    margin-left: 70px;
+}
+
+
+
+
+
+.son1-box {
+    border: 1px solid aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    margin-top: 100px; 
+   
+  
+   
+    margin-left: 60px;
+    
+    
+}
+
+
+.son2-box{
+    border: 1px solid aqua;
+    flex-direction: column;
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
