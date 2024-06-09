@@ -463,7 +463,7 @@ top: -255px;
     
     height: 100vh;
     box-sizing: border-box;
-    border: 1px solid rgb(168, 6, 6);
+ /*   border: 1px solid rgb(168, 6, 6); */
    
    
     
@@ -530,7 +530,7 @@ top: -255px;
 }
 
 .section5-box{
-    border: 1px solid red;
+/*    border: 1px solid red; */
     background-color: black;
     height: 100%;
     width: 100%;
@@ -552,7 +552,7 @@ top: -255px;
 
 .text-section5 {
     display: flex;
-    border: 1px solid blue;
+  /*  border: 1px solid blue; */
     margin-left: 70px;
     font-weight: 700;
     color: #97f902;
@@ -565,7 +565,7 @@ top: -255px;
 
 
 .son1-box {
-    border: 1px solid aqua;
+ /*   border: 1px solid aqua; */
     display: flex;
     flex-direction: column;
     align-items: center;   
@@ -593,7 +593,7 @@ top: -255px;
     font-size: 16px;
     color: #97f902;
     padding-right: 200px;
-    border: 1px solid orangered;
+/*    border: 1px solid orangered; */
 }
 
 
@@ -603,12 +603,58 @@ top: -255px;
 
 
 .son2-box{
-    border: 1px solid aqua;
-    flex-direction: column;
-    display: flex;
-    line-height: 51.42px;
+ /*   border: 1px solid aqua;*/
+    flex-direction: column; 
+    display:inline-block;
+    padding: 10px;
+
+   line-height: 51.42px; 
 
 }
+
+
+
+
+   
+
+
+
+.son2-box p {
+  /*  border: 1px solid orange; */
+    font-size: 20px;
+    margin: 0;
+    padding: 60px;
+  
+   
+ 
+   
+  
+}
+
+.son2-box h1{
+    font-size: 16px;
+    color: #97f902;
+    padding-right: 10px;
+    margin-left: 70px;
+    margin-top: -30px;
+   
+   /* border: 1px solid orangered;*/
+
+}
+
+
+
+    
+    
+ 
+   
+  
+   
+  
+ 
+ 
+
+
 
 
 
