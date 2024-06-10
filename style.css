@@ -551,7 +551,7 @@ top: -255px;
 
 .text-section5 {
     display: flex;
-    border: 1px solid blue; 
+ /*  border: 1px solid blue; */
     margin-left: 70px;
     font-weight: 700;
     color: #97f902;
@@ -565,7 +565,7 @@ top: -255px;
 
 
 .son1-box {
-   border: 1px solid aqua; 
+ /*  border: 1px solid aqua; */
     display: flex;
     flex-direction: column;
     align-items: center;   
@@ -593,10 +593,10 @@ top: -255px;
    
 
 .son1-box h2 {
-    font-size: 16px;
+    font-size: 15px;
     color: #97f902;
-    padding-right: 200px;
-   border: 1px solid orangered; 
+    padding-right: 120px;
+ /*  border: 1px solid orangered; */
 }
 
 
@@ -608,11 +608,12 @@ top: -255px;
 .son2-box{
    
     
-    border: 1px solid aqua; 
+  /*  border: 1px solid aqua; */
     flex-direction: column; 
     display:flex;
-    transform: translateY(-300px);
+    transform: translateY(-265px);
     margin-left: 500px;
+     
    
    
    
@@ -637,7 +638,7 @@ top: -255px;
     
     .son2-box p {
        
-       font-size: 24px;
+       font-size: 19px;
        font-weight: 300;
        padding: auto;
        margin: 30px;
@@ -665,6 +666,11 @@ top: -255px;
 }
 
 
+.section-footer{
+    display: flex;
+    background-color: #fff;
+    align-items: center;
+}
 
     
     
