@@ -479,9 +479,7 @@ top: -255px;
    
 }
 
-.section4-box img[src="controle-img.jpg"] {
-    margin-top: 400px;  
-}
+
 
 .section4-box img[src="dev-img.jpg"] {
     margin-top: -400px;
@@ -529,61 +527,40 @@ top: -255px;
 
 }
 
-.section5-box{
-    border: 2px solid red; 
-    background-color: black;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items:flex-start;
-    justify-content: center;
-    flex-wrap: wrap;
-   flex-direction: column;
-   
-   
-   
-   
-    
-  
+.section5-box {
+    height: 73vh;
 }
 
 
 
 .text-section5 {
     display: flex;
- /*  border: 1px solid blue; */
-    margin-left: 70px;
-    font-weight: 700;
-    color: #97f902;
-   transform: translateY(90px);
-   
+    align-items: center;
+        justify-content: center;
+        height: 88px;
+        width: 515px;
+        margin-top: 17px;
+        margin-left: 309px;
+    }
     
+    .text-section5>h1 {
+        color: #97f902;
+        font-size: 44px;
 }
-
 
 
 
 
 .son1-box {
- /*  border: 1px solid aqua; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;   
-   
+
     font-size: 24px;
     font-weight: 400;
-    margin-left: 50px;
-    padding: 10px;
-    box-sizing: border-box;
-    transform: translateY(100px);
-   
-    
+    margin-bottom: 40px;
 }
 
 .son1-box p{
-    
-    word-wrap: break-word;
-    line-height: 1.8;
+margin: 0px;
+    margin-bottom: 60px;
    
 }
    
@@ -606,34 +583,11 @@ top: -255px;
 
 
 .son2-box{
-   
-    
-  /*  border: 1px solid aqua; */
+
     flex-direction: column; 
-    display:flex;
-    transform: translateY(-265px);
-    margin-left: 500px;
-     
-   
-   
-   
+    display: flex;
 
 }
-    
-    
-   
-  
-   
-   
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
     
     .son2-box p {
@@ -641,24 +595,15 @@ top: -255px;
        font-size: 19px;
        font-weight: 300;
        padding: auto;
-       margin: 30px;
+    margin: 0px 30px 30px;
 
     }
-       
-        
- 
-  
-  
-   
- 
-   
-  
-
+    
 .son2-box h1{
     font-size: 16px;
     color: #97f902;
     padding-right: 10px;
-    margin-left: 60px;
+    margin-left: 38px;
     margin-top: -19px;
    
    /* border: 1px solid orangered;*/
@@ -673,7 +618,12 @@ top: -255px;
 }
 
     
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
+}
  
    
   
