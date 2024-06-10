@@ -530,16 +530,15 @@ top: -255px;
 }
 
 .section5-box{
-/*    border: 1px solid red; */
+    border: 2px solid red; 
     background-color: black;
     height: 100%;
     width: 100%;
     display: flex;
-    align-items: flex-start;
-    justify-content: space-around;
+    align-items:flex-start;
+    justify-content: center;
     flex-wrap: wrap;
    flex-direction: column;
-   margin: 0 auto;
    
    
    
@@ -552,10 +551,11 @@ top: -255px;
 
 .text-section5 {
     display: flex;
-  /*  border: 1px solid blue; */
+    border: 1px solid blue; 
     margin-left: 70px;
     font-weight: 700;
     color: #97f902;
+   transform: translateY(90px);
    
     
 }
@@ -565,23 +565,26 @@ top: -255px;
 
 
 .son1-box {
- /*   border: 1px solid aqua; */
+   border: 1px solid aqua; 
     display: flex;
     flex-direction: column;
     align-items: center;   
-    margin-top: -50px; 
+   
     font-size: 24px;
     font-weight: 400;
     margin-left: 50px;
     padding: 10px;
     box-sizing: border-box;
-    transform: translateY(-200px);
+    transform: translateY(100px);
    
     
 }
 
 .son1-box p{
+    
     word-wrap: break-word;
+    line-height: 1.8;
+   
 }
    
    
@@ -593,7 +596,7 @@ top: -255px;
     font-size: 16px;
     color: #97f902;
     padding-right: 200px;
-/*    border: 1px solid orangered; */
+   border: 1px solid orangered; 
 }
 
 
@@ -603,40 +606,59 @@ top: -255px;
 
 
 .son2-box{
- /*   border: 1px solid aqua;*/
+   
+    
+    border: 1px solid aqua; 
     flex-direction: column; 
-    display:inline-block;
-    padding: 10px;
-
-   line-height: 51.42px; 
-
-}
-
-
-
-
+    display:flex;
+    transform: translateY(-300px);
+    margin-left: 500px;
+   
+   
    
 
+}
+    
+    
+   
+  
+   
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .son2-box p {
+       
+       font-size: 24px;
+       font-weight: 300;
+       padding: auto;
+       margin: 30px;
 
-
-.son2-box p {
-  /*  border: 1px solid orange; */
-    font-size: 20px;
-    margin: 0;
-    padding: 60px;
+    }
+       
+        
+ 
+  
   
    
  
    
   
-}
 
 .son2-box h1{
     font-size: 16px;
     color: #97f902;
     padding-right: 10px;
-    margin-left: 70px;
-    margin-top: -30px;
+    margin-left: 60px;
+    margin-top: -19px;
    
    /* border: 1px solid orangered;*/
 
