@@ -292,7 +292,7 @@ nav ul li a:hover {
 }
 
 .image-container {
-    background-image: url('./background.img.jpg');
+    background-image: url('image/background.img.jpg');
     height: 518px;
     padding: 20px;
     display: flex;
@@ -459,7 +459,7 @@ nav ul li a:hover {
 
 .section4-box {
     display: flex;
-    background-image: url(background.img.jpg);
+    background-image: url(image/background.img.jpg);
     justify-content: center;
     align-items: center;
     height: 100%;
