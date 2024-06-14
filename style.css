@@ -682,7 +682,7 @@ nav ul li a:hover {
     height: 100px;
     padding: 0px 0px 50px;
     background-color: black;
-    border: 1px solid orangered;
+   /* border: 1px solid orangered; */
 
 
 }
@@ -715,7 +715,7 @@ nav ul li a:hover {
 
 .titulo{
     display: flex;
-    border: 1px solid purple;
+   /* border: 1px solid purple; */
     justify-content: center;
     font-size: 24px;
     font-weight: 700;
@@ -730,7 +730,7 @@ nav ul li a:hover {
     gap: 100px;
     margin-top: 25px;
 
-    border: 1px solid aqua;
+   /* border: 1px solid aqua; */
 }
 
 .texto-botao a{
