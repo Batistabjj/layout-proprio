@@ -713,6 +713,45 @@ nav ul li a:hover {
 }
    
 
+.titulo{
+    display: flex;
+    border: 1px solid purple;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 30px;
+    color: #00ff00;
+}
+
+.texto-botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 25px;
+
+    border: 1px solid aqua;
+}
+
+.texto-botao a{
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+
+.texto-botao h1{
+    font-size: 16px;
+    font-weight: 700;
+    border: 3px solid #97f902;
+    border-radius: 50px;
+    padding: 20px 40px;
+    cursor: pointer;
+    
+    
+    
+    color: #00ff00;
+}
+
 
 
 
