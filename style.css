@@ -608,64 +608,141 @@ nav ul li a:hover {
 
 }
 
-.section-footer{
+.section-footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     height: 100px;
     padding: 0px 0px 50px;
-   
-   
+
+
     background-color: #fff;
 }
 
 
-    
 
 
 
 
-.section-footer ul{
+
+.section-footer ul {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 50px;
-  /*  border: 1px solid red; */
-   
-  
-    
-    
-  
-  
+    /*  border: 1px solid red; */
 
 }
+
+
+
+
+
+
 
 
 
 .section-footer a {
-    color:black;
+    color: black;
     font-size: 16px;
     font-weight: bold;
-    
-   
+
+
 }
 
-.footer{
+.footer {
     display: flex;
     width: 100px;
     margin-right: 100px;
     margin-top: 25px;
     gap: 20px;
     /*  border: 1px solid rgb(23, 11, 131); */
-    
+
 }
+
 .footer img {
     width: 30px;
     height: 30PX;
     border: 5px solid #000;
     box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
     cursor: pointer;
-   
+
 
 }
+
+
+
+
+.sobre-nos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    padding: 0px 0px 50px;
+    background-color: black;
+    border: 1px solid orangered;
+
+
+}
+
+.logo-game img {
+    height: 150px;
+    width: 150px;
+    margin-top: 50px;
+  /*  border: 1px solid white;*/
+}
+
+.rodape1 {
+    display: flex;
+    margin-right: 50px;
+    gap: 20px;
+   /* border: 1px solid purple;*/
+   
+    
+
+}
+
+.rodape1 img {
+    width: 30px;
+    height: 30PX;
+    margin-top: 25px;
+    cursor: pointer;
+   /* border: 1px solid purple;*/
+}
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
