@@ -787,12 +787,19 @@ nav ul li a:hover {
 
 h1 {
     margin: 0;
-    padding-bottom: 100px; /* Espaçamento abaixo do título */
+     margin-bottom: 50px;/* Espaçamento abaixo do título */
     text-align: center;
     color: #00ff00;
-
-
 }
+
+h2{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 50px;
+    
+}
+
+
 
 
 
