@@ -758,6 +758,60 @@ nav ul li a:hover {
 
 
 
+.titulo1 h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 200px;
+    color: #00ff00;
+    border: 1px solid orange;
+}
+
+
+
+
+
+
+.nossos-produtos{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 100px;
+    
+    border: 1px solid purple;
+
+}
+
+.coluna{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+
+
+
+
+.nossos-produtos img{
+    height: 330px;
+    width: 330px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
