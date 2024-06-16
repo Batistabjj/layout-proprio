@@ -764,6 +764,7 @@ nav ul li a:hover {
     margin-top: 100px;
     background-image: url('image/background.img.jpg');
     padding: 20px;
+    
     /* Espaçamento dentro do contêiner */
     /*   border: 1px solid purple;  */
 }
@@ -772,20 +773,25 @@ nav ul li a:hover {
     display: flex;
     justify-content: center;
     gap: 20px;
+
+
+
+    max-width: 660px;
     /* Espaçamento entre as colunas */
 }
 
 .coluna {
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     gap: 20px;
     /* Espaçamento entre as imagens */
     align-items: center;
 }
 
 .nossos-produtos img {
-    height: 330px;
-    width: 330px;
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
 }
 
 h1 {
@@ -796,10 +802,17 @@ h1 {
     color: #00ff00;
 }
 
-h2 {
+.nossos-produtos h2 {
+    display: flex;
+
+    margin-left: 35px;
+    
+    
+
     font-size: 16px;
     font-weight: 400;
     margin-top: 50px;
+    
 
 }
 
@@ -816,13 +829,24 @@ h2 {
 .produtos-caixa1 {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+ /*   border: 1px solid #00ff00;  */
+}
+    
+.produtos-caixa1 a{
+    display: flex;
+    justify-content: center;
+  /*  border: 1px solid green; */
+}
 
-
-    /*   border: 1px solid #00ff00;  */
-
+.produtos-caixa2 a{
+    display: flex;
+    justify-content: center;
+ /*   border: 1px solid green; */
 
 }
+
 
 
 
@@ -830,8 +854,10 @@ h2 {
 
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    /*   border: 1px solid aqua;  */
+ /*   border: 1px solid aqua;  */
+    
 
 }
 
@@ -842,20 +868,20 @@ h2 {
     font-size: 16px;
     font-weight: 700;
     border-radius: 50px;
-    padding: 20px 40px;
+    padding: 10px 70px;
     height: auto;
     width: auto;
     cursor: pointer;
-    border: 3px solid #97f902;
+   border: 2px solid #97f902; 
 
 }
 
 .produtos-caixa2 h2 {
     font-size: 16px;
     font-weight: 700;
-    border: 3px solid #97f902;
+    border: 2px solid #97f902;
     border-radius: 50px;
-    padding: 20px 40px;
+    padding: 10px 70px;
     cursor: pointer;
 
 }
@@ -1130,4 +1156,93 @@ h2 {
 .prod3-oferta h1,
 .prod4-oferta h1 {
     margin: 0;
+}
+
+
+.penultima-parte {
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    background-image: url('image/background.img.jpg');
+    margin-top: 200px;
+    /*    border: 1px solid aqua;  */
+
+
+}
+
+
+
+
+.penultima-parte h2 {
+    font-size: 16px;
+    font-weight: 700;
+    border: 3px solid #97f902;
+    border-radius: 50px;
+    padding: 20px 40px;
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+
+.secao-final2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 0px 0px 50px;
+
+
+    background-color: #fff;
+}
+
+
+
+.secao-final2 ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    /*  border: 1px solid red; */
+
+}
+
+
+
+
+
+.secao-final2 a {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+
+
+}
+
+.imagens-final {
+    display: flex;
+    width: 100px;
+    margin-right: 100px;
+    margin-top: 25px;
+    gap: 20px;
+    /*  border: 1px solid rgb(23, 11, 131); */
+
+}
+
+.imagens-final img {
+    width: 30px;
+    height: 30PX;
+    border: 5px solid #000;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
+    cursor: pointer;
+
+
 }
