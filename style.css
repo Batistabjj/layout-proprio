@@ -879,34 +879,6 @@ h2{
 }
 
 
-
-     
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   
-
 .secao-final {
     display: flex;
     flex-direction: row;
@@ -931,12 +903,8 @@ h2{
 }
 
 
-
-
-
-
-
-
+     
+   
 
 .secao-final a {
     color: black;
@@ -965,4 +933,139 @@ h2{
 
 
 }
+
+
+
+
+
+.nossa-oferta {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    padding: 0px 0px 50px;
+    background-color: black;
+  /*  border: 1px solid orangered; */
+
+
+}
+
+.logo-game img {
+    height: 150px;
+    width: 150px;
+    margin-top: 50px;
+  /*  border: 1px solid white;*/
+}
+
+.inicio-nossa-oferta {
+    display: flex;
+    margin-right: 50px;
+    gap: 20px;
+ /*   border: 1px solid purple;  */
+   
+    
+
+}
+
+.inicio-nossa-oferta img {
+    width: 30px;
+    height: 30PX;
+    margin-top: 25px;
+    cursor: pointer;
+  /*  border: 1px solid purple;  */
+}
+   
+
+.informacao-ofertas{
+    
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 100px;
+    /*    border: 1px solid aqua;  */
+    
+   
+}
+
+
+
+
+.informacao-ofertas h2{
+    font-size: 16px;
+    font-weight: 700;
+    border: 3px solid #97f902;
+    border-radius: 50px;
+    padding: 20px 40px;
+    cursor: pointer;
+    
+}
+
+
+.precos-produtos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('image/background.img.jpg');
+    gap: 20px;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+
+.precos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.precos h1{
+    color: #fff;
+}
+
+.precos span{
+    color: #00ff00;
+}
+
+
+.precos h1, .precos a, .precos span{
+    margin: 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
 
