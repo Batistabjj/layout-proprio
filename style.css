@@ -764,10 +764,10 @@ nav ul li a:hover {
     margin-top: 100px;
     background-image: url('image/background.img.jpg');
     padding: 20px;
-
-    /* Espaçamento dentro do contêiner */
     /*   border: 1px solid purple;  */
 }
+
+    
 
 .imagens {
     display: flex;
@@ -1356,12 +1356,12 @@ h1 {
     align-items: center;
     width: 1100px;
     height: 500px;
-   /* max-width: 800px; */
     margin: 0 auto;
     margin-top: 110px;
   /*  border: 5px solid green; */
 
 }
+  
 
 
 
@@ -1466,15 +1466,15 @@ h1 {
 
 
 
-
-
-
-
 /* Estilos para o formulário */
 .login-cliente {
     display: flex;
     flex-direction: column;
 }
+
+
+
+
 
 /* Contêiner para os campos de entrada e rótulos */
 .input-container {
@@ -1486,27 +1486,27 @@ h1 {
 
 /* Estilos para os rótulos */
 .input-container label {
-    
-    
-    left: 10px; /* Posiciona o rótulo à esquerda do campo */
-  
-    padding: 0 5px; /* Espaçamento ao redor do texto do rótulo */
-    color: white; /* Texto branco */
+    left: 10px; 
+    padding: 0 5px; 
+    color: white; 
     font-size: 0.9em;
 }
+    
+    
+  
 
-/* Estilos para os campos de entrada e área de texto */
+
 .input-container input,
 .input-container textarea {
     padding: 15px;
-    border: 1px solid white; /* Borda branca */
+    border: 1px solid white; 
     border-radius: 5px;
-    background-color: black; /* Fundo transparente */
-    color: white; /* Texto branco */
+    background-color: black; 
+    color: white; 
     font-size: 1em;
 }
 
-/* Estilos específicos para a área de texto */
+
 .input-container textarea {
     resize: vertical;
     height: 48px;
@@ -1515,46 +1515,22 @@ h1 {
 
 .login-cliente button {
 
-    padding: 10px; /* Remove todo o padding interno */
+    padding: 10px; 
     border: 3px solid green;
-    border-radius: 50px; /* Transforma em um círculo */
+    border-radius: 50px; 
     background-color: transparent;
     color: green;
     font-size: 1em;
     cursor: pointer;
     font-size: 16px;
     height: auto;
-    align-self: center; /* Centraliza o botão horizontalmente */
-    margin-top: auto; /* Coloca o botão no final do contêiner */
+    align-self: center; 
+    margin-top: auto; 
     width: 200px;
     height: 60px;
-    box-sizing: border-box;/* Inclui a
-    /*   padding:  10px;
-       border: 1px solid green; 
-       border-radius: 20px;
-       background-color: transparent; 
-       color: green; 
-       font-size: 1em;
-       cursor: pointer;
-       width: auto;*/
-}
-
-
-
+    box-sizing: border-box;
    
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 .login-cliente button {
      background-color: transparent;
     color: green; 
@@ -1585,7 +1561,7 @@ h1 {
     justify-content: center;
     align-items: center;
     margin-left: 50px;
-    /*  border: 1px solid red; */
+    
 
 }
 
@@ -1607,9 +1583,9 @@ h1 {
     margin-right: 100px;
     margin-top: 25px;
     gap: 20px;
-    /*  border: 1px solid rgb(23, 11, 131); */
-
 }
+    
+
 
 .imagens-final img {
     width: 30px;
@@ -1620,3 +1596,19 @@ h1 {
 
 
 }
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
