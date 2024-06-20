@@ -1314,7 +1314,7 @@ h1 {
     align-items: center;
 
 
-    margin-top: 100px;
+    margin-top: 80px;
 
     /*    border: 1px solid aqua;  */
 
@@ -1358,8 +1358,8 @@ h1 {
     height: 500px;
    /* max-width: 800px; */
     margin: 0 auto;
-    margin-top: 150px;
-    border: 5px solid green;
+    margin-top: 110px;
+  /*  border: 5px solid green; */
 
 }
 
@@ -1407,6 +1407,216 @@ h1 {
 #prev-button{
     right: 590px;
 }
+
+
+
+.reserva-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    gap: 70px;
+    margin-top: 50px;
+   
+    background-image: url('image/background.img.jpg');
+
+   
+}
+
+
+.informaçao-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    gap: 10px;
+ /*   border: 5px solid green;  */
+}
+
+
+.login-cliente{
+    display: flex;
+    flex-direction: column;
+    height: 412;
+    width: 467px;
+    gap: 5px;
+    margin-top: 70px;
+    
+ /* border: 1px solid purple;  */
+     
+}
+
+.informaçao-login h3{
+    font-size: 48px;
+    font-weight: 700;
+  color: #00ff00;
+}
+
+.informaçao-login p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.informaçao-login h2{
+    font-size: 26px;
+    font-weight: 700;
+    color: #00ff00;
+    
+}
+
+
+
+
+
+
+
+/* Estilos para o formulário */
+.login-cliente {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Contêiner para os campos de entrada e rótulos */
+.input-container {
+    position: relative;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilos para os rótulos */
+.input-container label {
+    
+    
+    left: 10px; /* Posiciona o rótulo à esquerda do campo */
+  
+    padding: 0 5px; /* Espaçamento ao redor do texto do rótulo */
+    color: white; /* Texto branco */
+    font-size: 0.9em;
+}
+
+/* Estilos para os campos de entrada e área de texto */
+.input-container input,
+.input-container textarea {
+    padding: 15px;
+    border: 1px solid white; /* Borda branca */
+    border-radius: 5px;
+    background-color: black; /* Fundo transparente */
+    color: white; /* Texto branco */
+    font-size: 1em;
+}
+
+/* Estilos específicos para a área de texto */
+.input-container textarea {
+    resize: vertical;
+    height: 48px;
+}
+
+
+.login-cliente button {
+
+    padding: 10px; /* Remove todo o padding interno */
+    border: 3px solid green;
+    border-radius: 50px; /* Transforma em um círculo */
+    background-color: transparent;
+    color: green;
+    font-size: 1em;
+    cursor: pointer;
+    font-size: 16px;
+    height: auto;
+    align-self: center; /* Centraliza o botão horizontalmente */
+    margin-top: auto; /* Coloca o botão no final do contêiner */
+    width: 200px;
+    height: 60px;
+    box-sizing: border-box;/* Inclui a
+    /*   padding:  10px;
+       border: 1px solid green; 
+       border-radius: 20px;
+       background-color: transparent; 
+       color: green; 
+       font-size: 1em;
+       cursor: pointer;
+       width: auto;*/
+}
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+.login-cliente button {
+     background-color: transparent;
+    color: green; 
+    
+  
+}
     
    
 
+
+.rodape-reserva {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+   
+    padding: 0px 0px 50px;
+
+
+    background-color: #fff;
+}
+
+
+
+.rodape-reserva ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    /*  border: 1px solid red; */
+
+}
+
+
+
+
+
+.rodape-reserva a {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+
+
+}
+
+.imagens-final {
+    display: flex;
+    width: 100px;
+    margin-right: 100px;
+    margin-top: 25px;
+    gap: 20px;
+    /*  border: 1px solid rgb(23, 11, 131); */
+
+}
+
+.imagens-final img {
+    width: 30px;
+    height: 30PX;
+    border: 5px solid #000;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
+    cursor: pointer;
+
+
+}
