@@ -138,7 +138,7 @@ nav ul li a:hover {
     margin: 0 auto;
     margin-top: 110px;
     position: relative;
-  /*  border: 2px solid green; */
+    /*  border: 2px solid green; */
 }
 
 .carousel-image {
@@ -147,16 +147,16 @@ nav ul li a:hover {
     height: 100%;
     width: 100%;
     position: relative;
-  /*  border: 5px solid purple; */
+    /*  border: 5px solid purple; */
 }
 
 .carousel-image img {
     display: none;
-    min-width: 100%; 
-    height: 598px;
+    min-width: 100%;
+    height: 460px;
     object-fit: cover;
     transition: transform 0.5s ease-in-out;
-  /*  border: 10px solid green; */
+    /*  border: 10px solid green; */
 }
 
 .carousel-image img.active {
@@ -274,14 +274,15 @@ nav ul li a:hover {
 }
 
 .image-container {
+    display: flex;
     background-image: url('image/background.img.jpg');
     height: 518px;
     padding: 20px;
-    display: flex;
     align-items: flex-start;
     justify-content: space-around;
     gap: 10px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    
 }
 
 .image-item {
@@ -291,13 +292,15 @@ nav ul li a:hover {
     text-align: center;
     max-width: 300px;
     margin-top: 30px;
-}
+} 
 
 .image-item img {
+    display: flex;
     width: 247px;
     height: 247px;
     max-width: 300px;
     max-height: 250px;
+  
 
 }
 
@@ -320,56 +323,54 @@ nav ul li a:hover {
     justify-content: center;
     color: #00ff00;
     font-weight: bold;
-    font-size: 30px;
-    padding-top: 40px;
+    font-size: 40px;
+   /* padding-top: 40px; */
 
 
 
 }
 
 .section-login {
-
-
-    text-align: right;
-    margin-bottom: 20px;
-}
-
-.form-section {
     display: flex;
-    justify-content: flex-end;
-}
-
-.message-box {
-    background-color: black;
-    padding: 20px;
-    border-radius: 10px;
-    width: 200px;
-    height: fit-content;
-    position: absolute;
-    left: 150px;
-    font-weight: 1000;
-
-
-}
-
-
-
-.form-section {
-    display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    gap: 20px;
-    height: 100vh;
-    padding: 20px;
+    text-align: right;
+  
+   
+    
 }
+  
+
+
+
+
+
+
+
+.form-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    gap: 20px;
+   
+
+}
+
+    
 
 .text-container {
-
+    display: flex;
     max-width: 45%;
     box-sizing: border-box;
     padding: 10px;
+
 }
+    
+
+
+
+
 
 .text-container p {
     margin: 0;
@@ -385,10 +386,11 @@ nav ul li a:hover {
     gap: 10px;
     max-width: 45%;
     box-sizing: border-box;
-    padding: 10px;
+
     align-items: center;
     position: relative;
-    margin-bottom: 40px;
+
+   
 }
 
 
@@ -402,11 +404,13 @@ nav ul li a:hover {
     border: 1px solid white;
     width: 100%;
     box-sizing: border-box;
+   
 }
 
 .form-container input[type="text"] {
     align-self: flex-start;
-    margin-top: -130px;
+
+    
 }
 
 .form-container input[type="email"] {
@@ -429,7 +433,7 @@ nav ul li a:hover {
     color: #97f902;
     width: 150px;
     height: 50px;
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 
@@ -514,24 +518,46 @@ nav ul li a:hover {
 
 
 .section5-box {
-    height: 73vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+  
+    margin-top: 20px;
+
+
+
 }
+
 
 
 
 .text-section5 {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 88px;
-    width: 515px;
-    margin-top: 17px;
-    margin-left: 309px;
+    flex-direction: row;
+    margin-right: 160px;
+    margin-left: 200px;
+    
 }
+
+
+.container {
+    display: flex;
+    gap: 80px;
+   
+}
+
+
+
+
+
 
 .text-section5>h1 {
     color: #97f902;
-    font-size: 44px;
+    font-size: 40px;
+   
+
 }
 
 .son1-box {
@@ -539,6 +565,7 @@ nav ul li a:hover {
     font-size: 24px;
     font-weight: 400;
     margin-bottom: 40px;
+   
 }
 
 .son1-box p {
@@ -551,14 +578,15 @@ nav ul li a:hover {
     font-size: 15px;
     color: #97f902;
     padding-right: 120px;
-    /*  border: 1px solid orangered; */
+   
 }
 
 
 .son2-box {
 
-    flex-direction: column;
     display: flex;
+    flex-direction: column;
+   
 
 }
 
@@ -596,7 +624,7 @@ nav ul li a:hover {
     justify-content: space-between;
     align-items: center;
     height: 70px;
-  
+
 
 
     background-color: #fff;
@@ -646,7 +674,7 @@ nav ul li a:hover {
 .footer img {
     width: 30px;
     height: 30PX;
-    
+
 
 
 }
@@ -662,7 +690,7 @@ nav ul li a:hover {
     height: 100px;
     padding: 0px 0px 50px;
     background-color: black;
-     border: 1px solid orangered; 
+    border: 1px solid orangered;
 
 
 }
@@ -747,7 +775,7 @@ nav ul li a:hover {
     /*   border: 1px solid purple;  */
 }
 
-    
+
 
 .imagens {
     display: flex;
@@ -811,7 +839,7 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-     /*  border: 1px solid #00ff00;  */
+    /*  border: 1px solid #00ff00;  */
 }
 
 .produtos-caixa1 a {
@@ -866,7 +894,7 @@ h1 {
     padding: 20px 40px;
     margin-right: 300px;
     cursor: pointer;
-    color:#00ff00;
+    color: #00ff00;
 
 }
 
@@ -892,7 +920,7 @@ h1 {
     color: #00ff00;
 }
 
-.penultima-secao a{
+.penultima-secao a {
     font-size: 18px;
     font-weight: 400;
 
@@ -906,7 +934,7 @@ h1 {
     align-items: center;
     height: 87px;
     width: auto;
-    
+
 
 
     background-color: #fff;
@@ -919,7 +947,7 @@ h1 {
     justify-content: center;
     align-items: center;
     margin-left: 50px;
-  
+
     /*  border: 1px solid red; */
 
 }
@@ -949,7 +977,7 @@ h1 {
 .imagens-final img {
     width: 30px;
     height: 30PX;
-   
+
 
 
 }
@@ -966,7 +994,7 @@ h1 {
     height: 100px;
     padding: 0px 0px 50px;
     background-color: black;
-  /*   border: 10px solid orangered; */
+    /*   border: 10px solid orangered; */
 
 
 }
@@ -1021,9 +1049,9 @@ h1 {
     padding: 20px 40px;
     cursor: pointer;
     color: #00ff00;
-    
-    
-   
+
+
+
 
 }
 
@@ -1197,8 +1225,8 @@ h1 {
     height: 90px;
     width: auto;
     background-color: #fff;
-  /*  padding: 0px 0px 50px; */
- /* border: 1px solid orange;*/
+    /*  padding: 0px 0px 50px; */
+    /* border: 1px solid orange;*/
 }
 
 
@@ -1210,8 +1238,8 @@ h1 {
     justify-content: center;
     align-items: center;
     margin-left: 50px;
-   
-  /*   border: 1px solid red; */
+
+    /*   border: 1px solid red; */
 
 }
 
@@ -1240,7 +1268,7 @@ h1 {
 .imagens-final img {
     width: 30px;
     height: 30PX;
-   
+
 
 
 }
@@ -1356,10 +1384,10 @@ h1 {
     height: 500px;
     margin: 0 auto;
     margin-top: 110px;
-  /*  border: 5px solid green; */
+    /*  border: 5px solid green; */
 
 }
-  
+
 
 
 
@@ -1373,7 +1401,7 @@ h1 {
 }
 
 .imagem-carrosell img {
-    min-width: 100%; 
+    min-width: 100%;
     height: auto;
     object-fit: cover;
     transition: transform 0.5s ease-in-out;
@@ -1385,7 +1413,7 @@ h1 {
 
 #preev-button img,
 #neext-button img {
-   
+
     background-color: white;
     width: 30px;
     height: auto;
@@ -1402,11 +1430,13 @@ h1 {
     top: 80%;
     left: 0;
     right: 0;
-    transform: translateY(-50%);  
-    padding: 20px; /* Espaçamento interno dos botões */
-    box-sizing: border-box; /* Garante que o padding não afete o tamanho total */
+    transform: translateY(-50%);
+    padding: 20px;
+    /* Espaçamento interno dos botões */
+    box-sizing: border-box;
+    /* Garante que o padding não afete o tamanho total */
 }
-   
+
 
 
 
@@ -1420,22 +1450,22 @@ h1 {
 
 
 
- 
 
 
 
 
-.reserva-login{
+
+.reserva-login {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 600px;
     gap: 70px;
     margin-top: 50px;
-   
+
     background-image: url('image/background.img.jpg');
 
-   
+
 }
 
 
@@ -1445,38 +1475,38 @@ h1 {
     align-items: center;
     margin-top: 50px;
     gap: 10px;
- /*   border: 5px solid green;  */
+    /*   border: 5px solid green;  */
 }
 
 
-.login-cliente{
+.login-cliente {
     display: flex;
     flex-direction: column;
     height: 412;
     width: 467px;
     gap: 5px;
     margin-top: 70px;
-    
- /* border: 1px solid purple;  */
-     
+
+    /* border: 1px solid purple;  */
+
 }
 
-.informaçao-login h3{
+.informaçao-login h3 {
     font-size: 48px;
     font-weight: 700;
-  color: #00ff00;
+    color: #00ff00;
 }
 
-.informaçao-login p{
+.informaçao-login p {
     font-size: 18px;
     font-weight: 400;
 }
 
-.informaçao-login h2{
+.informaçao-login h2 {
     font-size: 26px;
     font-weight: 700;
     color: #00ff00;
-    
+
 }
 
 
@@ -1501,23 +1531,23 @@ h1 {
 
 /* Estilos para os rótulos */
 .input-container label {
-    left: 10px; 
-    padding: 0 5px; 
-    color: white; 
+    left: 10px;
+    padding: 0 5px;
+    color: white;
     font-size: 0.9em;
 }
-    
-    
-  
+
+
+
 
 
 .input-container input,
 .input-container textarea {
     padding: 15px;
-    border: 1px solid white; 
+    border: 1px solid white;
     border-radius: 5px;
-    background-color: black; 
-    color: white; 
+    background-color: black;
+    color: white;
     font-size: 1em;
 }
 
@@ -1530,30 +1560,31 @@ h1 {
 
 .login-cliente button {
 
-    padding: 10px; 
+    padding: 10px;
     border: 3px solid green;
-    border-radius: 50px; 
+    border-radius: 50px;
     background-color: transparent;
     color: green;
     font-size: 1em;
     cursor: pointer;
     font-size: 16px;
     height: auto;
-    align-self: center; 
-    margin-top: auto; 
+    align-self: center;
+    margin-top: auto;
     width: 200px;
     height: 60px;
     box-sizing: border-box;
-   
+
 }
+
 .login-cliente button {
-     background-color: transparent;
-    color: green; 
-    
-  
+    background-color: transparent;
+    color: green;
+
+
 }
-    
-   
+
+
 
 
 .rodape-reserva {
@@ -1562,8 +1593,8 @@ h1 {
     justify-content: space-between;
     align-items: center;
     height: 70px;
-   
-   
+
+
 
     background-color: #fff;
 }
@@ -1575,7 +1606,7 @@ h1 {
     justify-content: center;
     align-items: center;
     margin-left: 50px;
-    
+
 
 }
 
@@ -1598,14 +1629,13 @@ h1 {
     margin-top: 25px;
     gap: 20px;
 }
-    
+
 
 
 .imagens-final img {
     width: 30px;
     height: 30PX;
-    
+
 
 
 }
-
