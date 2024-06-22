@@ -1,21 +1,21 @@
-document.addEventListener('DOMContentLoaded', () => {
-    const carousel = document.querySelector('.carousel');
-    const prevButton = document.getElementById('prev-button');
-    const nextButton = document.getElementById('next-button');
-    let currentIndex = 0;
 
-    prevButton.addEventListener('click', () => {
-        currentIndex = Math.max(currentIndex - 1, 0);
-        updateCarousel();
-    });
+    document.addEventListener('DOMContentLoaded', function() {
+        let currentIndex = 0;
+        const images = document.querySelectorAll('.carousel-image img');
+        const totalImages = images.length;
 
-    nextButton.addEventListener('click', () => {
-        currentIndex = Math.min(currentIndex + 1, carousel.children.length - 1);
-        updateCarousel();
-    });
+        document.getElementById('next-button').addEventListener('click', function() {
+            images[currentIndex].classList.remove('active');
+            currentIndex = (currentIndex + 1) % totalImages;
+            images[currentIndex].classList.add('active');
+        });
 
-    function updateCarousel() {
-        const offset = -currentIndex * window.innerWidth;
-        carousel.style.transform = `translateX(${offset}px)`;  
-    }
+        document.getElementById('prev-button').addEventListener('click', function() {
+            images[currentIndex].classList.remove('active');
+            currentIndex = (currentIndex - 1 + totalImages) % totalImages;
+            images[currentIndex].classList.add('active');
+        });
+
+        // Inicializa o carrossel mostrando a primeira imagem
+        images[currentIndex].classList.add('active');
 });

@@ -118,103 +118,74 @@ nav ul li a:hover {
     margin-bottom: 0;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
 .carousel-container {
-    width: 1180px;
-    height: 600px;
-    /*width: 78%;*/
-    margin: 160px auto 20px auto;
-    background-color: black;
-    box-sizing: border-box;
-    overflow-x: auto;
-    white-space: nowrap;
-    scroll-snap-type: x mandatory;
-    max-width: 100vw;
-    display: flex;
-    justify-content: center;
-    scroll-behavior: smooth;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-    position: relative;
-}
-
-
-
-
-
-.carousel img {
-
-    flex: 0 0 auto;
-    width: 100vw;
-    /* height: 100%; */
-
-    object-fit: cover;
-
-
-    scroll-snap-align: start;
-    scroll-snap-stop: always;
-    border-radius: 0%;
-
-
-}
-
-.carousel {
-
-    scroll-snap-type: x mandatory;
-    display: flex;
-    width: 100%;
-}
-
-
-
-
-
-.carousel-container::before {
-    left: 10px;
-    border-top: 4px solid transparent;
-    border-bottom: 4px solid transparent;
-    border-left: 4px solid white;
-}
-
-.carousel-container::after {
-    right: 10px;
-    border-top: 4px solid transparent;
-    border-bottom: 4px solid transparent;
-    border-left: 4px solid white;
-
-
-}
-
-.carousel-container:hover::before,
-.carousel-container:hover::after {
-    opacity: 1;
-}
-
-
-.carousel-buttons {
-    position: absolute;
-    bottom: 55px;
-    left: 45%;
-    transform: translateX(-50);
-    display: flex;
-    gap: 20px;
-}
-
-#prev-button,
-#next-button {
-
-    position: absolute;
-
-    border: 2px solid white;
-    border-radius: 50%;
-
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
-    top: -255px;
+
+    margin: 0 auto;
+    margin-top: 110px;
+    position: relative;
+  /*  border: 2px solid green; */
 }
+
+.carousel-image {
+    display: flex;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    position: relative;
+  /*  border: 5px solid purple; */
+}
+
+.carousel-image img {
+    display: none;
+    min-width: 100%; 
+    height: 598px;
+    object-fit: cover;
+    transition: transform 0.5s ease-in-out;
+  /*  border: 10px solid green; */
+}
+
+.carousel-image img.active {
+    display: block;
+}
+
+.button-carousel {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    pointer-events: none;
+}
+
+.button-carousel button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    pointer-events: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 10px;
+}
+
+
 
 #prev-button img,
 #next-button img {
@@ -226,18 +197,29 @@ nav ul li a:hover {
     filter: invert(100%);
 }
 
-#prev-button {
-    position: absolute;
-    right: 479px;
-    top: -255px;
 
-}
 
-#next-button {
-    position: absolute;
-    left: 591px;
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .info-box {
     padding: 15px;
@@ -613,8 +595,8 @@ nav ul li a:hover {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 100px;
-    padding: 0px 0px 50px;
+    height: 70px;
+  
 
 
     background-color: #fff;
@@ -645,8 +627,8 @@ nav ul li a:hover {
 
 .section-footer a {
     color: black;
-    font-size: 16px;
-    font-weight: bold;
+    font-size: 12px;
+    font-weight: 400;
 
 
 }
@@ -664,9 +646,7 @@ nav ul li a:hover {
 .footer img {
     width: 30px;
     height: 30PX;
-    border: 5px solid #000;
-    box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
-    cursor: pointer;
+    
 
 
 }
@@ -682,7 +662,7 @@ nav ul li a:hover {
     height: 100px;
     padding: 0px 0px 50px;
     background-color: black;
-    /* border: 1px solid orangered; */
+     border: 1px solid orangered; 
 
 
 }
@@ -912,6 +892,12 @@ h1 {
     color: #00ff00;
 }
 
+.penultima-secao a{
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
 
 .secao-final {
     display: flex;
@@ -963,9 +949,7 @@ h1 {
 .imagens-final img {
     width: 30px;
     height: 30PX;
-    border: 5px solid #000;
-    box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
-    cursor: pointer;
+   
 
 
 }
@@ -1256,9 +1240,7 @@ h1 {
 .imagens-final img {
     width: 30px;
     height: 30PX;
-    border: 5px solid #000;
-    box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
-    cursor: pointer;
+   
 
 
 }
@@ -1338,8 +1320,8 @@ h1 {
 }
 
 .reserva-informacao a {
-    font-size: 24px;
-    font-weight: 100;
+    font-size: 18px;
+    font-weight: 400;
 
 
 }
@@ -1348,7 +1330,7 @@ h1 {
 
 
 .reserva-informacao h1 {
-    font-size: 40px;
+    font-size: 60px;
     font-weight: 700;
 
     color: #00ff00;
@@ -1386,9 +1368,9 @@ h1 {
     overflow: hidden;
     width: 1100px;
     height: 600px;
+    margin: 0 auto;
+    position: relative;
 }
-
-
 
 .imagem-carrosell img {
     min-width: 100%; 
@@ -1397,32 +1379,49 @@ h1 {
     transition: transform 0.5s ease-in-out;
 }
 
+
+
+
+
+#preev-button img,
+#neext-button img {
+   
+    background-color: white;
+    width: 30px;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 50%;
+    filter: invert(100%);
+}
+
 .Botoes-carrosell {
     display: flex;
     justify-content: space-between;
-
-    width: 200px;
-    top: 50%;
-    transform: translateY(-50%);
-    pointer-events: none;
-
+    align-items: center;
+    position: absolute;
+    top: 80%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);  
+    padding: 20px; /* Espaçamento interno dos botões */
+    box-sizing: border-box; /* Garante que o padding não afete o tamanho total */
 }
+   
+
+
+
 
 .Botoes-carrosell button {
     background: none;
     border: none;
     cursor: pointer;
-    pointer-events: auto;
+
 }
 
-.Botoes-carrosell img {
-    width: 10px;
-    height: 10px;
-}
+
+
  
-#prev-button{
-    right: 590px;
-}
+
 
 
 
@@ -1564,8 +1563,7 @@ h1 {
     align-items: center;
     height: 70px;
    
-    padding: 0px 0px 50px;
-
+   
 
     background-color: #fff;
 }
@@ -1606,9 +1604,7 @@ h1 {
 .imagens-final img {
     width: 30px;
     height: 30PX;
-    border: 5px solid #000;
-    box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
-    cursor: pointer;
+    
 
 
 }
