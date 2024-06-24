@@ -29,7 +29,7 @@ let categorias = {
         label:'aleatório',
         products:[
             {id: 605260, id_button: 203019, productName: "cordão "},
-            {id: 605261, id_button: 203019, productName: "bolsa verão"},
+            {id: 605261, id_button: 203019, productName: "bolsa verão"}, 
             {id: 605262, id_button: 203019, productName: "calça rodada rosado"},
             {id: 605263, id_button: 203019, productName: "tenis nike "},
     ]   ,
@@ -39,7 +39,7 @@ let categorias = {
         id_stream:59,
         label:'blusas',
         products:[
-            {id: 605264, id_button: 203020, productName: "estampada "},
+            {id: 605264, id_button: 203020, productName: "estampada "}, 
             {id: 605265, id_button: 203020, productName: "colorida"},
             {id: 605266, id_button: 203020, productName: "sem estampa"},
             {id: 605267, id_button: 203020, productName: "branca "},
@@ -48,6 +48,9 @@ let categorias = {
         
     ]
 }
+
+let vestidosCategory = categorias.category.find(category => category.label === 'vestidos')
+console.log(vestidosCategory)
 
 //1 -  percorra o array category e retorne o objeto que possui a label "vestidos".
 //2 - percorra o array category e retorne  todos os id_button.
