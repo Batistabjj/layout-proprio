@@ -52,6 +52,23 @@ let categorias = {
 let vestidosCategory = categorias.category.find(category => category.label === 'vestidos')
 console.log(vestidosCategory)
 
+
+let idButtons = categorias.category.map(category => category.id_button);
+console.log(idButtons)
+
+
+
+let categoria = categorias.category.find(category => category.id_button === 203019);
+console.log(categoria)
+
+
+
+
+
+
+
+ 
+
 //1 -  percorra o array category e retorne o objeto que possui a label "vestidos".
 //2 - percorra o array category e retorne  todos os id_button.
 //3 - percorre o array category e retorne a categoria  que possui a propriedade "id_button:203019"
