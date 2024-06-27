@@ -72,3 +72,11 @@ console.log(categoria)
 //1 -  percorra o array category e retorne o objeto que possui a label "vestidos".
 //2 - percorra o array category e retorne  todos os id_button.
 //3 - percorre o array category e retorne a categoria  que possui a propriedade "id_button:203019"
+
+//4 - percorre o array category e retorne todos os  os products dentro de uma única lista.
+//5 - percorre o array category e retorne todos os  os products dentro de um array de objetos.
+//6 - percorra o array category e retorne  somente o produto com a prop    productName: "calça rodada rosado"
+//7 - percorra o array category e mude o nome de todas as propriedades  "products"  para  "produtos"
+
+
+ 
