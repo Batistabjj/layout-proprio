@@ -87,21 +87,18 @@ categorias.category = categorias.category.map(categoria => {
     let { products, ...resto } = categoria;
     return { ...resto, produtos: products };
 });
-console.log(JSON.stringify(categorias, null, 2));
 
+function imprimirCategorias(categorias) {
+    categorias.category.forEach(categoria => {
+        console.log(`id_button: ${categoria.id_button}, id_stream: ${categoria.id_stream}, label: '${categoria.label}', produtos: [`);
+        categoria.produtos.forEach(produto => {
+            console.log(`  { id: ${produto.id}, id_button: ${produto.id_button}, productName: "${produto.productName}" },`);
+        });
+        console.log(']');
+    });
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+imprimirCategorias(categorias);
 
 //1 -  percorra o array category e retorne o objeto que possui a label "vestidos".
 //2 - percorra o array category e retorne  todos os id_button.
@@ -110,6 +107,19 @@ console.log(JSON.stringify(categorias, null, 2));
 //4 - percorre o array category e retorne todos os  os products dentro de uma única lista.
 //5 - percorra o array category e retorne  somente o produto com a propiedade  productName: "calça rodada rosado"
 //6 - percorra o array category e mude o nome de todas as propriedades  "products"  para  "produtos"
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
